@@ -12,12 +12,6 @@ const randChoice = (arr) => {
   return arr.slice(random, random+1);
 }
 
-const makeRandomPhone = () => {
-  return (Math.floor(Math.random() * (9 - 1 + 1)) + 1) +''+ (Math.floor(Math.random() * (9 - 0 + 1)) + 0) +''+ (Math.floor(Math.random() * (9 - 0 + 1)) + 0) 
-  + ' ' + (Math.floor(Math.random() * (9 - 0 + 1)) + 0) +''+ (Math.floor(Math.random() * (9 - 0 + 1)) + 0) +''+ (Math.floor(Math.random() * (9 - 0 + 1)) + 0)
-  + ' ' + (Math.floor(Math.random() * (9 - 0 + 1)) + 0) +''+ (Math.floor(Math.random() * (9 - 0 + 1)) + 0) +''+ (Math.floor(Math.random() * (9 - 0 + 1)) + 0);
-} 
-
 // generate phone number
 const makeNumberX = (Math.floor(Math.random() * (9 - 1 + 1)) + 1);
 
